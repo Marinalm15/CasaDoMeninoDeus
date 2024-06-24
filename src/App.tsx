@@ -1,13 +1,18 @@
+import { MovimentContextProvider } from './Context/departamentosContext'
 import './index.css'
+import { Footer } from './layout/footer'
+import { Header } from './layout/header'
+import { Equipa } from './pages/Equipa'
 
 function App() {
 
   return (
     <>
-     <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-        
+      <Header />
+      <MovimentContextProvider>
+        <Equipa />
+      </MovimentContextProvider>
+      <Footer />
     </>
   )
 }

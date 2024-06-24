@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.bg_text, .btn_dept:hover, .btn_navbar:focus, .btn_navbar:hover {
+    background-image: url("./assets/bg-text.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ant-carousel .slick-next {
+    color: #000 !important;
+}
+
