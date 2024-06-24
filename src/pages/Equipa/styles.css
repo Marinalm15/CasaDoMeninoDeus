@@ -1,0 +1,11 @@
+.bg_text, .btn_dept:hover {
+    background-image: url("../../assets/bg-text.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ant-modal .ant-modal-content {
+    background-color: transparent;
+    box-shadow: none;
+}
