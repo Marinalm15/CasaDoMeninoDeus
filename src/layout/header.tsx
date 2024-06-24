@@ -25,8 +25,7 @@ export function Header() {
             >
 
                 {imgCarousel.map(item => (
-                    <div key={item.id} className="">
-
+                    <div key={item.id} >
                         <div
                             className="m-0 h-screen flex justify-center bg-cover bg-center"
                             style={{ backgroundImage: `url(${item.uri})` }}
