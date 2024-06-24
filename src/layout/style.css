@@ -1,0 +1,37 @@
+.ant-carousel .slick-dots li.slick-active {
+    width: 10rem;
+}
+
+.ant-carousel .slick-dots li button {
+    height: 0.3rem;
+}
+
+.ant-carousel .slick-dots li {
+    width: 10rem;
+}
+
+.ant-carousel .slick-dots-bottom {
+    gap: 5rem;
+    margin-bottom: 3rem;
+}
+
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(10%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-slide-up {
+    animation: slideUp 1s ease-out;
+  }
+
+@media (max-width: 768px) {
+  .ant-carousel .slick-dots {
+    display: none !important;
+  }
+}
